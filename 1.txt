@@ -1,0 +1,413 @@
+fix #ue-dlg { z-index: 100003; display: block; text-align: left; margin: -2em auto 0 auto; position: absolute; background-color: transparent; border:0; } #ue-dlg-content { border:0; background:0; display: none; } #ue-loading-indicator { background-color:white; border: 7px solid #BBB; border: 7px solid rgba(150, 150, 150, 0.38); -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px; -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, .35); -moz-box-shadow: 0 10px 50px rgba(0,0,0,.35); box-shadow: 0 10px 50px rgba(0, 0, 0, .35); padding: 10px; margin-left: 330px; margin-top: 250px; } #ue-overlay { position: absolute; z-index:100002; width: 100%; height: 100%; left: 0; top: 0; background-color: #000; filter: alpha(opacity=10); -ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=10)'; opacity: .1; } #ue-dlg[id], #ue-overlay[id] { position:fixed; } #ue-overlay p { padding: 5px; color: #ddd; font: bold 14px arial, sans-serif; margin: 0; letter-spacing: -1px; } * html.dlg-open body { height: 100%; } * html.dlg-open, * html.dlg-open body { overflow: hidden; } html.dlg-open object, html.dlg-open embed, * html.dlg-open select { visibility: hidden; } * html #ue-overlay { width: 110%; } * html #ue-dlg #ue-dlg-close { background: none; }fix .ue-tab-container {z-index: 100001 !important;position: fixed;right: 0px;top:35%;} .ue-button { border: 1px solid #fff; box-shadow: rgba(255, 255, 255, 0.247059) 1px 1px 1px inset, rgba(0, 0, 0, 0.498039) 0px 1px 3px; font:bold 14px Arial, sans-serif; line-height: 1em; overflow: hidden; cursor:pointer; top: 0%; z-index: 9999; display: block; background-position: center 0px; background-repeat: no-repeat; background-color: #94989E; float: right; -webkit-transition:0.3s ease-out background-color,0.1s ease-out padding-right; -moz-transition:0.3s ease-out background-color,0.1s ease-out padding-right; } .ue-button:hover { background-color: #94989E; padding-right:3px; } .ue-right { border-right-width: 0px; border-style: solid none solid solid; border-radius: 5px 0px 0px 5px; } .ue-bottom { float: left; border-bottom-width: 0px; border-style: solid solid solid solid; border-radius: 5px 5px 0px 0px; } .ue-top { float: left; border-top-width: 0px; border-style: solid solid solid solid; border-radius: 0px 0px 5px 5px; } .ue-left.ue-button { left: 0px; border-left-width: 0px; border-style: solid solid solid none; border-radius: 0 5px 5px 0; } .ue-left.ue-button #ueTabLabel { padding:0px 0px 0px 0px !important; border-radius: 0 5px 5px 0; } .ue-right.ue-button #ueTabLabel { padding:10px 0px 0px 0px !important; } .ue-button.ue-chat.ue-bottom, .ue-button.ue-chat.ue-top{ float:left; margin-right:5px } .ue-button.ue-chat.ue-left, .ue-button.ue-chat.ue-right{ margin-bottom:5px } .ue-button.ue-hidden { opacity: 0; filter: alpha(opacity=0); display: none; } 
+
+  
+
+ 
+ 
+
+
+
+
+DaData.ru
+
+
+Проверка данных 
+
+Подсказки 
+
+Дубликаты 
+
+API 
+
+Служба поддержки
+
+
+
+t
+
+
+ 9,70  ₽ 
+
+
+Выйти 
+
+<div class="header__no-js-message">Включите JavaScript, без него Дадата не работает.</div>  
+
+
+
+Повысить качество данных
+
+По одному человеку
+
+
+Из файла
+
+
+
+ 
+
+Имя:
+
+
+Телефон:
+
+
+E-mail:
+
+
+Адрес:
+
+
+Паспорт:
+
+
+Проверить 
+
+
+
+Чтобы начать обработку, выберите файл
+или перетащите его на выделенную область:
+
+
+ 
+
+
+Загружаю...
+
+
+
+
+Выбрать файл 
+Поддерживаются файлы Excel и CSV до 20 Мб. 
+
+Просмотр 100 записей — бесплатно.
+Пример файла для обработки 
+
+  
+
+Как обработать файл
+ Пополнить баланс 
+ 
+
+Shopid: *  
+ 
+
+
+Scid: *  
+ 
+
+
+Customernumber: 
+ 
+
+
+Сумма заказа: *  
+ 
+
+
+E-mail: 
+ шлем баланс счета 
+
+
+Paymenttype: 
+ 
+
+
+Shopsuccessurl: 
+ 
+
+
+Shpextend premium suggestions: 
+ 
+
+
+Shpregister new user: 
+ 
+
+
+Shpis secure: 
+ 
+
+
+Shpprimary referer: 
+ 
+
+
+Shpis subscribed: 
+ 
+
+
+Shppremium suggestions rate: 
+ 
+
+
+Shppremium suggestions rate limit: 
+ 
+
+
+Shpmerge id: 
+ 
+
+
+Shpinv number: 
+ 
+
+
+Ym merchant receipt: *  
+ 
+
+
+ 
+
+ Оплатить по безналу 
+ 
+
+
+Автоматически исправляем ошибки
+ в адресах, ФИО и телефонах
+
+
+ 
+
+
+
+
+Исправляем опечатки, транслитерируем и проставляем пол в ФИО;
+
+Склоняем ФИО по падежам
+(кого? кому? кем?);
+
+Приводим адреса к ФИАС, определяем район города,
+ОКТМО, ИФНС, геокоординаты и площадь квартиры;
+
+Нормализуем телефоны, актуализируем DEF-коды, проставляем регионы и часовые пояса;
+
+Проверяем корректность email-адресов перед почтовой рассылкой;
+
+Проверяем серию и номер паспорта через ФМС;
+
+Определяем марку и модель автомобиля.
+
+
+
+
+
+Стоимость
+
+
+5–10 копеек за запись, скидка за объем.
+
+
+ записей 
+ 
+   =  
+ 
+100 ₽
+ Оплатить стандартизацию 
+ 
+
+Shopid: *  
+ 
+
+
+Scid: *  
+ 
+
+
+Customernumber: 
+ 
+
+
+Сумма заказа: *  
+ 
+
+
+E-mail: 
+ шлем баланс счета 
+
+
+Paymenttype: 
+ 
+
+
+Shopsuccessurl: 
+ 
+
+
+Shpextend premium suggestions: 
+ 
+
+
+Shpregister new user: 
+ 
+
+
+Shpis secure: 
+ 
+
+
+Shpprimary referer: 
+ 
+
+
+Shpis subscribed: 
+ 
+
+
+Shppremium suggestions rate: 
+ 
+
+
+Shppremium suggestions rate limit: 
+ 
+
+
+Shpmerge id: 
+ 
+
+
+Shpinv number: 
+ 
+
+
+Ym merchant receipt: *  
+ 
+
+
+ 
+
+
+Для компаний
+
+Оплатите безналичным переводом по реквизитам и пришлите скан платежки. 
+
+Работаем по оферте. Акты об оказанных услугах присылаем раз в квартал.
+
+Применяем упрощенную систему налогообложения: услуги НДС не облагаются, счета-фактуры не предоставляются.
+
+
+Новости и справочники
+
+
+
+Одной строкой
+
+  
+
+
+
+
+Справочники
+
+
+ФИАС
+
+12.07.2018
+
+
+Индексы Почты
+
+05.07.2018
+
+
+Банки
+
+17.07.2018
+
+
+ЕГРЮЛ
+
+17.07.2018
+
+
+Телефоны
+
+01.04.2018
+
+
+Перенесённые номера
+
+17.07.2018
+
+
+IP-адреса
+
+02.07.2018
+
+
+Недейств. паспорта
+
+17.07.2018
+
+
+Геокоординаты
+
+06.07.2018
+
+
+Площади квартир
+
+20.12.2016
+
+
+Цены квартир
+
+07.06.2017
+
+
+Нашли ошибку в данных? Дайте знать:
+Добавить недостающий адрес
+Сообщить о неточных координатах
+Исправить индекс
+
+
+
+
+
+Тарифы 
+
+Оферта и документы 
+
+Доступность 
+
+О сервисе 
+
+
+Служба поддержки 
+
+Новости 
+
+Блог 
+
+
+
+ООО «Дейта Кью», ИНН 7721581040
+
++7 495 220-19-62 с 9 до 17, пн–пт 
+
+info@dadata.ru 
+
+Политика конфиденциальности
+ оператор ПД № 77-18-009925 
+
+
+
+
+   
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  var cfg = JSON.parse('{"paths": {"process": "process", "modernizr": "lib/modernizr.custom.41821", "suggestions": "suggestions", "jquery.migrate": "lib/jquery-migrate-1.2.1", "jquery.counter": "lib/jquery.counter", "jquery.fancybox": "lib/jquery.fancybox.pack", "billing": "billing", "jquery.placeholder": "lib/jquery.placeholder", "jquery.form": "lib/jquery.form", "main": "main", "jquery.bxslider": "lib/jquery.bxslider.min", "jsrender": "lib/jsrender", "throbber": "lib/throbber", "jquery.xdomainrequest": "lib/jquery.xdomainrequest-1.0.1.min", "jquery.suggestions": "lib/jquery.suggestions.min", "jquery.hashchange": "lib/jquery.hashchange", "jquery.icheck": "lib/jquery.icheck.min", "vue": "vue", "lodash": "lib/lodash.min", "payment_systems": "payment_systems", "vue.core": "lib/vue", "profiles": "profiles", "jquery.stickytableheaders": "lib/jquery.stickytableheaders", "dropzone": "lib/dropzone"}, "baseUrl": "/static/js/build/18.7.4", "shim": {"jsrender": {"deps": ["jquery"]}, "jquery.xdomainrequest": {"deps": ["jquery"]}, "jquery.migrate": {"deps": ["jquery"]}, "analytics": {"deps": ["jquery"]}, "jquery.counter": {"deps": ["jquery"]}, "jquery.hashchange": {"deps": ["jquery"]}, "jquery.icheck": {"deps": ["jquery"]}, "jquery.fancybox": {"deps": ["jquery"]}, "jquery.suggestions": {"deps": ["jquery"]}, "jquery.placeholder": {"deps": ["jquery"]}, "jquery.form": {"deps": ["jquery"]}, "jquery.stickytableheaders": {"deps": ["jquery"]}, "jquery.bxslider": {"deps": ["jquery"]}}}'); require.config(cfg); window.DA = {}; window.DA.settings = { API_KEY: "5ef98f5781a106962077fb18109095f9f11ebac1", TRY_DOCUMENT_MAX_SIZE: 20971520, TRY_DOCUMENT_CONTENT_TYPES: ["text/plain", "text/csv", "text/x-csv", "text/comma-separated-values", "text/tsv", "application/csv", "application/txt", "application/vnd.ms-excel", "application/vnd.openxmlformats", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/octet-stream"], TRY_DOCUMENT_SUPPORTED_FORMATS: ["Excel", "CSV"], FILE_WITHOUT_RECORDS_MSG: "Похоже, что файл пустой, обрабатывать нечего.", PROCESS_CHECK_COST_INTERVAL: 30, DISABLE_SUGGESTIONS: false, MERGING_MAX_FILES: 5, DEBUG: false }; window.DA.user = { isAuthenticated: true, username: "parfumeland@ya.ru", id: 25390 }; window.DA.clean = {"current_user_count": 0, "prev_user_count": 0, "rates": [{"to": 100000, "price": 10, "from": 0}, {"to": 300000, "price": 9, "from": 100000}, {"to": 500000, "price": 8, "from": 300000}, {"to": 800000, "price": 7, "from": 500000}, {"to": 1000000, "price": 6, "from": 800000}, {"to": 100000000, "price": 5, "from": 1000000}]} jQuery.migrateMute = true;    var _ues = { host: 'dadata.userecho.com', forum: '17942', lang: 'ru', tab_corner_radius: 5, tab_font_size: 20, tab_image_hash: '0LfQsNC00LDRgtGMINCy0L7Qv9GA0L7RgQ%3D%3D', tab_chat_hash: '0YfQsNGC', tab_alignment: 'right', tab_text_color: '#FFFFFF', tab_text_shadow_color: '#00000055', tab_bg_color: '#94989E', tab_hover_color: '#94989E' , params: {sso_token:"PTsh2yx%2BDswbMb2ouyEE7nOwnZvd9laAeAP9fS7dQ5RWUlMFQGAdLZSqWt6OhCLj8vfTlGDhe8rMed1Sl7Yc1cs1KAgqCCY5TNw8f2D9tPYMbMVB5V28EP9EpY9RavKVSBQ7aG6Uzs05jZlZxVzE6DvIjAIGvQeYfYktjhtN1JzzC8bNm%2BWx4MzRVaovY%2BoM/mgNqi6%2BVPoNSSxeI67laQTSIxF4hUpkrI8bNyLBs9kNiNcvB2PIOH58QDcJ68MAtXa2esD1zr2sng5jJBr8VEnZXSXzu2HUpM1hFyLPi7uhhXYtPVGUS6r5OJ2V5UXKpDj0SqSxAYF6pO1B/u2THw%3D%3D"} }; (function() { var _ue = document.createElement('script'); _ue.type = 'text/javascript'; _ue.async = true; _ue.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.userecho.com/js/widget-1.4.gz.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(_ue, s); })();   (function(i, s, o, g, r, a, m) { i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga'); ga('create', 'UA-39399831-1', 'dadata.ru'); ga('send', 'pageview');   (function(d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter22515688 = new Ya.Metrika({ id: 22515688, webvisor: true, clickmap: true, trackLinks: true, accurateTrackBounce: true }); } catch (e) {} }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function() { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); <div><img src="//mc.yandex.ru/watch/22515688" style="position:absolute; left:-9999px;" alt="" /></div>  !function(f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '891850000956730'); fbq('track', 'PageView');  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=891850000956730&ev=PageView&noscript=1"/>  require(["main/workspace"]);  
